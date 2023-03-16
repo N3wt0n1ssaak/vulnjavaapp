@@ -10,7 +10,7 @@ security:
     # Path to the shared repo
       - project: 'whitespots-public/pipelines'
         # a proper branch name
-        ref: 'codeql'
+        ref: 'main'
         file: 'pipelines.yml'
   variables:
 
